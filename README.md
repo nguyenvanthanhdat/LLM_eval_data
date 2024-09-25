@@ -19,3 +19,8 @@ mamba install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 pip install requirements.txt
 ```
 
+## Install llama-cpp-python
+
+```bash
+CMAKE_ARGS="-DGGML_CUDA=on" pip install llama-cpp-python --upgrade --force-reinstall --no-cache-dir
+```
