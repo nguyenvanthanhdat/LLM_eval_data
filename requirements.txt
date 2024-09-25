@@ -1,0 +1,3 @@
+transformers
+ctransformers[cuda]
+llama-cpp-python
